@@ -14,6 +14,7 @@ body {
   width: 100%;
   top: 0;
   height: 70px;
+  z-index: 1;
 }
 .head button {
   border: none;
@@ -135,6 +136,7 @@ body {
   margin-top: 50px;
   padding-left: 15%;
   padding-right: 15%;
+  align-items: flex-start;
 }
 .articles {
   flex-grow: 3;
@@ -176,13 +178,13 @@ body {
   object-fit: contain;
   width: 25%;
 }
-.side {
-  /* position: relative; */
-}
+
 aside {
-  margin-left: 40px;
   position: sticky;
-  top: 0;
+
+  margin-left: 120px;
+
+  top: 100px;
 }
 .discover h3 {
   font-weight: 700;
